@@ -1,2 +1,3 @@
-# 3D Vision | C++ 👨🏻‍💻
-This is the repository for our 3D Vision coursework - Augmented Reality project ('23-24).
+## 3D Vision | C++ 👨🏻‍💻
+
+This is the repository for the 3D Vision course ('23-24).
