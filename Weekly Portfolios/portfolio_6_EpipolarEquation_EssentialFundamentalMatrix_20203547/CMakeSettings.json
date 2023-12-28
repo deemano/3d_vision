@@ -1,0 +1,45 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "GLFW_LIBRARY",
+          "value": "${projectDir}/libs/glfw/lib-vc2022/glfw3.lib",
+          "type": "FILEPATH"
+        }
+      ]
+    },
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "variables": [
+        {
+          "name": "GLFW_LIBRARY",
+          "value": "${projectDir}/libs/glfw/lib-vc2022/glfw3.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "Qt6_DIR",
+          "value": "C:/Qt",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}
